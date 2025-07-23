@@ -11,5 +11,10 @@ int main()
 
         scanf("%d", &arr[i]);
     }
-    printf("%d", arr[1]);
+    // printf("%d", arr[1]);
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d ", arr[i]);
+    }
 }
